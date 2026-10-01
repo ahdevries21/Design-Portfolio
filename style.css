@@ -7,7 +7,11 @@
     --inspiration-blue: #3C69DC;
     --pencil-gray:#333333;
 }
-/*Fonts*/
+body{
+    margin:0; 
+    padding:0;
+    background-color: var(--blank-canvas)
+}
 
 /*Text*/
 h1,h2,h3,h4,h5,h6{
@@ -15,8 +19,33 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
     font-style: normal;
 }
-p,li{
+
+/*Website Elements*/
+p, li{
     font-family:'Roboto', sans-serif;
     font-weight: 300;
     font-style: normal;
 }
+.header{
+    display: inline-flex;
+    padding: 1em;
+}
+.logo{
+    padding: 1.5em;
+}
+.navigation{
+    float: right;
+}
+.nav-links{
+    margin-top: 2em;
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+.nav-links li{
+    list-style-type: none;
+    padding-right: 1em;
+    display:inline;
+    align-items: center;
+}
+
