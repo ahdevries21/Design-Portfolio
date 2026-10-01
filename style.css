@@ -1,0 +1,24 @@
+/*Color Palette*/
+:root{
+    --deep-bond-green: #042504;
+    --blank-canvas: #FFFFFF;
+    --compassion-pink: #FFD9DA;
+    --hearty-green: #8Abc9F;
+    --inspiration-blue: #3C69DC;
+    --pencil-gray:#333333;
+}
+/*Fonts*/
+:root{
+    --heading: 'operetta-8', serif;
+    --body:'roboto',sans-serif;
+}
+
+/*Text*/
+h1,h2,h3,h4,h5,h6{
+    font-family:var(--heading);
+}
+p{
+    font-family: var(--body);
+    font-weight: 300;
+    font-style: normal;
+}
