@@ -8,17 +8,15 @@
     --pencil-gray:#333333;
 }
 /*Fonts*/
-:root{
-    --heading: 'operetta-8', serif;
-    --body:'roboto',sans-serif;
-}
 
 /*Text*/
 h1,h2,h3,h4,h5,h6{
-    font-family:var(--heading);
+    font-family:'Operetta-8', serif;
+    font-weight: 700;
+    font-style: normal;
 }
-p{
-    font-family: var(--body);
+p,li{
+    font-family:'Roboto', sans-serif;
     font-weight: 300;
     font-style: normal;
 }
